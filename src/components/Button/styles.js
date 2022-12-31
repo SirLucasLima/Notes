@@ -9,7 +9,7 @@ export const Container = styled.button`
   border: 0;
   padding: 0 1.6rem;
   margin-top: 1.6rem;
-
+  border-radius: 10px;
   font-weight: 500;
 
   &:disabled{

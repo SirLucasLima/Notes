@@ -1,11 +1,13 @@
 import { Container } from "./styles";
 
-export function Button(){
+//loading = false, para caso ele não seja informado, será false
+export function Button({title, loading = false}){
   return(
     <Container
       type="button"
+      disabled={loading}
     >
-      oioi
+      { loading ? "Carregando..." : title }
     </Container>
   )
 }
