@@ -1,5 +1,7 @@
+import { ButtonText } from "../../components/ButtonText/ButtonText";
 import { Header } from "../../components/Header/Header";
 import { Container, Brand, Menu, Search, Content, NewNote } from "./styles";
+import { FiPlus } from "react-icons/fi"
 
 export default function Home(){
   return(
@@ -9,7 +11,9 @@ export default function Home(){
       </Brand>
       <Header/>
       <Menu>
-
+        <li><ButtonText title="Todos" active /></li>
+        <li><ButtonText title="React"/></li>
+        <li><ButtonText title="NodeJs"/></li>
       </Menu>
       <Search>
 
@@ -18,7 +22,8 @@ export default function Home(){
 
       </Content>
       <NewNote>
-        
+        <FiPlus/>
+        New note
       </NewNote>
     </Container>
   );
