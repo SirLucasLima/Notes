@@ -11,7 +11,7 @@ export function Header(){
         />
         <div>
           <span>Bem-Vindo</span>
-          <strong>Rodrigo Gonçalves</strong>
+          <strong>Filho do Márcia</strong>
         </div>
       </Profile>
       <Logout>
