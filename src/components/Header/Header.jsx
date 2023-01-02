@@ -10,8 +10,8 @@ export function Header(){
           alt="Imagem perfil" 
         />
         <div>
-          <span>Bem-Vindo</span>
-          <strong>Rodrigo Gonçalves</strong>
+          <span>Welcome</span>
+          <strong>Sir Lucas Lima</strong>
         </div>
       </Profile>
       <Logout>
