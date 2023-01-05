@@ -1,3 +1,4 @@
+import { Button } from "../../components/Button/Button";
 import { Header } from "../../components/Header/Header";
 import { Input } from "../../components/Input/Input";
 import { NewItem } from "../../components/NewItem/NewItem";
@@ -13,7 +14,7 @@ export default function New(){
       <main>
         <Form>
           <header>
-            <h1>Criar nota</h1>
+            <h1>Create note</h1>
             <a href="">return</a>
           </header>
 
@@ -21,9 +22,18 @@ export default function New(){
           <TextArea placeholder="Comments"/>
 
           <Section title="Useful links">
-            <NewItem value="https://app.rocketseat.com.br/node/stage-09/group/desenvolvendo-aplicacao/lesson/estilizando-o-note-item-1"/>
+            <NewItem value="https://app.rocketseat.com.br"/>
             <NewItem isNew placeholder="New link"/>
           </Section>
+
+          <Section title="Tag">
+            <div className="tags">
+              <NewItem value="react"/>
+              <NewItem isNew placeholder="New tag"/>
+            </div>
+          </Section>
+
+          <Button title="Save"/>
         </Form>
       </main>
     </Container>
